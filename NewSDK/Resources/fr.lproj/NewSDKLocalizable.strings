@@ -1,0 +1,44 @@
+/* NewSDK user-facing strings (French). Keys are short identifiers: <group>.<name>. */
+
+/* alert */
+"alert.avoidReflections" = "Veuillez éviter les réflexions de la lumière sur la carte.";
+"alert.cameraDeniedMessage" = "L'accès à la caméra a été refusé pour cette application. Vous pouvez le modifier dans les Réglages.";
+"alert.cameraDeniedTitle" = "Accès à la caméra refusé";
+"alert.cardScanFailed" = "Impossible de scanner la carte";
+"alert.configFailedMessage" = "La configuration de la caméra a échoué.";
+"alert.configFailedTitle" = "Échec de la configuration";
+"alert.resumeFailedMessage" = "Une erreur est survenue lors de la reprise de la session.";
+"alert.resumeFailedTitle" = "Impossible de reprendre la session";
+"alert.sessionTimeout" = "Session expirée";
+"alert.useOriginalCin" = "Veuillez utiliser une carte CIN originale";
+
+/* camera */
+"camera.resumeSession" = "Reprendre la session";
+"camera.unavailableMessage" = "Impossible d'accéder à la caméra. Vérifiez l'autorisation dans Réglages > Confidentialité > Appareil photo.";
+"camera.unavailableTitle" = "Caméra indisponible";
+
+/* common */
+"common.cancel" = "Annuler";
+"common.confirm" = "Valider";
+"common.continue" = "Continuer";
+"common.no" = "Non";
+"common.ok" = "OK";
+"common.settings" = "Réglages";
+"common.yes" = "Oui";
+
+/* face */
+"face.hintBlink" = "Veuillez cligner\nles yeux";
+"face.hintFacing" = "Merci de vous positionner\nface à la caméra";
+"face.quitConfirm" = "Êtes-vous sûr de vouloir quitter le scan ?";
+"face.scanSuccess" = "Le Scan du visage a été effectué avec succès ";
+
+/* scan */
+"scan.cardDone" = "Le scan de votre piéce d'identité a été effectué avec succés !";
+"scan.goVerso" = "Passons au verso !";
+"scan.recto" = "Recto";
+"scan.rectoDone" = "Le scan du recto a été effectué avec succés.";
+"scan.verso" = "Verso";
+
+/* toast */
+"toast.alignCard" = "Veuillez vous assurer que la position de la carte scannée respecte le rectangle et aucun champ de la carte n'est pas caché";
+"toast.avoidReflections" = "Veuillez éviter les réflexions de la lumière sur la carte";

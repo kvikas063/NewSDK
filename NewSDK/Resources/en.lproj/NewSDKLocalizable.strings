@@ -1,0 +1,44 @@
+/* NewSDK user-facing strings (English). Keys are short identifiers: <group>.<name>. */
+
+/* alert */
+"alert.avoidReflections" = "Please avoid light reflections on the card.";
+"alert.cameraDeniedMessage" = "Camera permission has been denied for this app. You can change this in Settings.";
+"alert.cameraDeniedTitle" = "Camera permission denied";
+"alert.cardScanFailed" = "Unable to scan the card";
+"alert.configFailedMessage" = "The camera could not be configured.";
+"alert.configFailedTitle" = "Configuration failed";
+"alert.resumeFailedMessage" = "There was an error while attempting to resume the session.";
+"alert.resumeFailedTitle" = "Unable to resume session";
+"alert.sessionTimeout" = "Session timeout";
+"alert.useOriginalCin" = "Please use an original CIN card";
+
+/* camera */
+"camera.resumeSession" = "Resume session";
+"camera.unavailableMessage" = "Unable to access the camera. Please check the camera permission in Settings > Privacy > Camera.";
+"camera.unavailableTitle" = "Camera unavailable";
+
+/* common */
+"common.cancel" = "Cancel";
+"common.confirm" = "Confirm";
+"common.continue" = "Continue";
+"common.no" = "No";
+"common.ok" = "OK";
+"common.settings" = "Settings";
+"common.yes" = "Yes";
+
+/* face */
+"face.hintBlink" = "Please blink\nyour eyes";
+"face.hintFacing" = "Please position yourself\nfacing the camera";
+"face.quitConfirm" = "Are you sure you want to quit the scan?";
+"face.scanSuccess" = "The face scan was completed successfully";
+
+/* scan */
+"scan.cardDone" = "Your ID card scan was completed successfully!";
+"scan.goVerso" = "Let's move on to the back side!";
+"scan.recto" = "Front";
+"scan.rectoDone" = "The front side scan was completed successfully.";
+"scan.verso" = "Back";
+
+/* toast */
+"toast.alignCard" = "Please make sure the scanned card is aligned with the rectangle and that no field of the card is hidden";
+"toast.avoidReflections" = "Please avoid light reflections on the card";

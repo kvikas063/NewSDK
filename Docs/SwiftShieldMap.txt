@@ -1,0 +1,76 @@
+//
+// SwiftShield Conversion Map
+// NewSDK
+// Deobfuscate crash logs (or any text file) by running:
+// swiftshield deobfuscate
+//
+
+CameraConfiguration ===> l5et7Iy8OiSmrfEROfdGTv6nwErctYKm
+CameraFeedManager ===> D8bNFT95NbhlrfyWllDp68AZySXUHmXt
+CameraFeedManagerDelegate ===> ZSP58vZ71h0tlSCfgRnSJI3iOmpNO2qf
+DrawingView ===> lU2YDSwONUtfxobLtCD8q5d8c31YE09r
+ObjectOverlay ===> TXdYfz4oUblDaR66596RBuKeZvClIrDm
+OverlayView ===> yKw6WQbJGQFsKtF3V95mJ8DZM5OgHgjD
+PopupView ===> y2lSgWLf9VpYVHwV0a31Rvy4yHBONULJ
+PreviewView ===> bIvpRBRowRuX8QU2s0Lvnt0kuYdNTI9A
+UserSession ===> fKrUHvHJknyK3g7L2vSipDnasRUh8RKV
+VideoHelper ===> TDvfqt8Xf6EIs055HyQLPj7xsDBCtoPe
+addObservers ===> bgV1ki9LVSCbFfGyuPiZoJYtyO4GBXyg
+addVideoDataOutput ===> GS6V57XUvIdKeNJAsHmwtlzVZch9pHFe
+addVideoDeviceInput ===> l35Z6FDTAJ6ZLJhyERw6gmkZnpGbjk2D
+adresse ===> tzZbByoiDZnS0RIf8lI8Fjir2KSvDlNt
+animatedImageWithSource ===> xZaMPDrwQaY1FFHRsRWWpO5JMukTNYZS
+attemptToConfigureSession ===> weqoqGGRsuj7bEbcLDoWP1x6SgV0tYd6
+b76VUGSnUaWOLg5gsgtycRIE1p7Pwg0c ===> IVYJ7tsl9CSQJJBnYVfARb1EY8neCjur
+borderRect ===> FnWcjrVdxMBkhnCkPtCZYc0J1UCEW8wV
+checkCameraConfigurationAndStartSession ===> yAGLUWQmhAyxCg2jfvamv7ioXvEjEDvn
+color ===> XgjhsGqBGONqdFUbCDZ12qASmoFcEmoT
+configureSession ===> CpxRJYykmUOBOSJAqBwg7KbHNmJTLJUj
+delayForImageAtIndex ===> RlHvdh5Tl5FjD2su2PRHxw685JsCnzsB
+didOutput ===> YSuZSMAQipUTTbB2I5iULuxr1BIACZfp
+drawBackground ===> OyDtIk0rKj1Nl13tSSXDCipjdVZRNl1H
+drawBorders ===> uDqQG7NYnwfteEnd0BW2X2737UXpSzd5
+drawName ===> iGNNxQFBQLoJ0DvPVFnaS88To9E4YkPu
+drawPolygon ===> WapXNeNNSqcI1JyNNTOrpj4t1keARnD3
+drawRect ===> P3vYqk4PqmHN0yJuEECsAFm5DBUmjSYV
+failed ===> fXQ5EIumjgUdCMBzRnWt2eDkq0HuUuEm
+font ===> PyjiFQwA5dHtOWhTxkRkM0B4hXmVsuJN
+gcdForArray ===> FjdOZSR7z0WC9ujeQLSBvXSpCRLTk4Om
+gcdForPair ===> M2OfTfRCWrNE1i4p0681pP0LdNKL8j4B
+getAdresseAccess ===> siJc2rfh5ymgtKjVzy6dn4tgiz24rOXb
+getImageAccess ===> hdya2TCPu5RNn85L70JNyfpdQmfl253p
+getImageVerAccess ===> TV29zYAmpTQqLinjW8mLR5co1wC9USQ8
+getModified ===> ApLF1XO8PMG89XXb4r196RZ3lTqBLSdO
+getTokenAccess ===> UxpybnXDN3EZnFfQfQ7quriQgR6Z3iZ3
+getVideoAccess ===> RPIGTk10Z6Va7IDsKZCG5N34EDa2yEKA
+imageCIN ===> ky1ePKYSfStWWtkoyn7UgCesivPB3BvT
+imageCINVer ===> yy3ZfLPAkInlRLrv0BbNDQ4fhrwgciEd
+name ===> D9ft73fXHlMVT6dVZWgO7nOIiO03bKpB
+nameStringSize ===> s7w2R0nFMNTzRDdMxMvtBSbdCVq7c2t2
+orientationFromTransform ===> ZEYvMKADxQhuaisw99wQ6fV3mB6n2fk0
+permissionDenied ===> nEkKadIDQLeVntjq61ExDJry9B3GL597
+presentCameraPermissionsDeniedAlert ===> kZMcc83qv4P2CU8e8Dkq96aSr1AAfOqu
+presentVideoConfigurationErrorAlert ===> wHnXp0M51N5LLTNe9YW7hnqifEcKwmWO
+removeObservers ===> nIdgb7raWYT7BDdvutG3302tLidGGJmO
+requestCameraAccess ===> MPFCGxPJGLISyIT5Q8nY9JCX1kqBZkce
+resized ===> GQ6vhImkYfaK9QUjzGk8mIxddotjfFaR
+resumeInterruptedSession ===> Dvzo8SsdAEGIhYhZOa5lf87UIx6gwj3H
+sessionInterruptionEnded ===> JkiHfUKgZ896sjDkuK5AX3F2mV412zED
+sessionRunTimeErrorOccured ===> a5ccfNWAcEPeFtvp82hwA22Y6JLkyrsv
+sessionRuntimeErrorOccured ===> xSUcjtGpQm3uwt6h0SktPQQrUHJrzP0X
+sessionWasInterrupted ===> Elm5KJmsn1DFeuYmbW1OtrwrmH8AnuwW
+setAdressAccess ===> wCkaQlFAjOaL6RErxjj4feMkYGw4vyof
+setImageAccess ===> vj7Kb8bCwAxxRd1Kiduq1eSQz9rLNAOV
+setImageVerAccess ===> N7scpKD22a00a5V3JRCZEU5ooETWBJrb
+setTokenAccess ===> aNxA3MCpcgFDa4FDA86KX9NrCTfenTa8
+setUpCamera ===> rETUJKpbwcXAx1bKx5fY9RI6TWnYlV3j
+setVideoAccess ===> CBtdift8be5uCJ5CpWbd6yBp4ZayVxUx
+size ===> bAi0mr4qmad0BtC0hjiYpW0uphIxqS7n
+startMediaBrowser ===> rCXq1ksQEmcSXmV3DVXeqlQUcgu10HKM
+startSession ===> dLy9tFf3yNa51AF22AajTOusCPpqD4aA
+stopSession ===> xdN0btp63XTVDRanlrXOLP1NfzJLVEE3
+success ===> lxXEd7LnAK3tx6kQ1Uwvp34iy6W0dZfH
+tokenAccess ===> Gv6iuNfQoFK2P4Pd3tdqXjDS25hJGyRR
+video ===> Y2tKeK7Qj0fKVKJxcmXe2591quNLlCTF
+videoCapture ===> KNiUazUE6x9Mux2PXav7mgjbUbGFuj18
+videoCompositionInstruction ===> EFhCKuc21ZTnpytvgtqHCreKwaSPjQJK
