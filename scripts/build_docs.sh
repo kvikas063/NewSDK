@@ -27,5 +27,15 @@ if [ -n "$BASE_PATH" ]; then
 else
   xcrun docc process-archive transform-for-static-hosting Docs/NewSDK.doccarchive --output-path Docs/NewSDK-html
 fi
+if [ -n "$BASE_PATH" ]; then
+  # docc leaves the site root pointing at "/"; send visitors of https://<user>.github.io/<repo>/ to the docs.
+  cat > Docs/NewSDK-html/index.html <<HTML
+<!doctype html>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/${BASE_PATH}/documentation/newsdk/">
+<title>NewSDK</title>
+<a href="/${BASE_PATH}/documentation/newsdk/">NewSDK documentation</a>
+HTML
+fi
 rm -rf "$DERIVED"
 echo "Created Docs/NewSDK.doccarchive and Docs/NewSDK-html"

@@ -134,7 +134,9 @@ localization, troubleshooting) are a DocC catalog in `NewSDK/NewSDK.docc`.
 - In Xcode: **Product ▸ Build Documentation** (⌃⇧⌘D) on the package or the app that uses it.
 - Prebuilt: open `Docs/NewSDK.doccarchive` in Xcode, or serve the static site in `Docs/NewSDK-html`:
   `python3 -m http.server --directory Docs/NewSDK-html 8000`, then open <http://localhost:8000/documentation/newsdk>.
-- Rebuild both with `scripts/build_docs.sh`.
+- Online: <https://kvikas063.github.io/NewSDK/documentation/newsdk/> (published from `Docs/NewSDK-html` by the
+  `.github/workflows/docs.yml` workflow).
+- Rebuild both with `scripts/build_docs.sh NewSDK` (the argument is the GitHub Pages base path), commit, and push.
 
 ## Repository layout
 
