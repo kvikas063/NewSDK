@@ -1,0 +1,34 @@
+name: Publish documentation
+
+# Publishes the prebuilt DocC site in Docs/NewSDK-html to GitHub Pages.
+# One-time setup: repository Settings > Pages > Build and deployment > Source: "GitHub Actions".
+# Rebuild the site with `scripts/build_docs.sh NewSDK`, commit it, and push: this workflow deploys it.
+on:
+  push:
+    branches: [main]
+    paths: ["Docs/NewSDK-html/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: Docs/NewSDK-html
+      - id: deployment
+        uses: actions/deploy-pages@v4
